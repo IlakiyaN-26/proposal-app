@@ -1,0 +1,26 @@
+<div class="container">
+
+    <div class="card">
+  
+      <h1>Do You Like Me? ❤️</h1>
+  
+      <button
+        class="yes-btn"
+        (click)="yesClick()">
+        Yes
+      </button>
+  
+      <button
+        class="no-btn"
+        [style.left.px]="x"
+        [style.top.px]="y"
+        (mouseenter)="moveButton()"
+        (touchstart)="moveButton()">
+        No
+      </button>
+  
+    </div>
+  
+    <!-- <h1>{{ question }}</h1> -->
+
+  </div>

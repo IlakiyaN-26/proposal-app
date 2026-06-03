@@ -1,0 +1,38 @@
+.container {
+    height: 100vh;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    background: linear-gradient(
+      135deg,
+      #ff9a9e,
+      #fad0c4
+    );
+  }
+  
+  .card {
+    position: relative;
+  
+    width: 350px;
+    height: 250px;
+  
+    background: white;
+  
+    border-radius: 20px;
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+    padding: 20px;
+  }
+  
+  .yes-btn {
+    margin-top: 20px;
+  }
+  
+  .no-btn {
+    position: absolute;
+  }
